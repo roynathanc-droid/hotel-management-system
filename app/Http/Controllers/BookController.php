@@ -45,7 +45,7 @@ class BookController extends Controller
             'updated_at' => now(),
         ]);
 
-        return redirect('/clients')->with('success','Reservation created.');
+        return redirect('/welcome')->with('success','Reservation created.');
     }
 
     public function clientdashboard()

@@ -16,8 +16,13 @@ Route::get('/businesslounge', [ClientController::class, 'businesslounge']);
 Route::get('/services', [ClientController::class, 'services']);
 Route::get('/luxuryshuttle', [ClientController::class, 'luxuryshuttle']);
 Route::get('/digitalconcierge', [ClientController::class, 'digitalconcierge']);
-
-
+Route::get('/facilities', [ClientController::class, 'facilities']);
+Route::get('/infinitypool', [ClientController::class, 'infinitypool']);
+Route::get('/spa', [ClientController::class, 'spa']);
+Route::get('/fitness', [ClientController::class, 'fitness']);
+Route::get('/valet', [ClientController::class, 'valet']);
+Route::get('/wifi', [ClientController::class, 'wifi']);
+Route::get('/artgallery', [ClientController::class, 'artgallery']);
 
 
 use App\Http\Controllers\BookController;
@@ -47,22 +52,22 @@ Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 // dashboard after login :
 
 
-// use App\Http\Controllers\adminController;
-// Route::get('/admin', [adminController::class, 'dashboard']);
+use App\Http\Controllers\adminAuthController;
+// Route::get('/admindashboard', [adminAuthController::class, 'dashboard']);
 
 
 // --- Admin Auth Routes ---
-// Route::get('/loginAdmin', [App\Http\Controllers\AdminAuthController::class, 'showLoginForm'])->name('admin.loginAdmin');
-// Route::post('/loginAdmin', [App\Http\Controllers\AdminAuthController::class, 'login'])->name('admin.login');
+Route::get('/loginAdmin', [App\Http\Controllers\AdminAuthController::class, 'showLoginForm'])->name('admin.login');
+Route::post('/loginAdmin', [App\Http\Controllers\AdminAuthController::class, 'login'])->name('admin.loginAdmin');
 
-// Route::get('/registerAdmin', [App\Http\Controllers\AdminAuthController::class, 'showRegisterForm'])->name('admin.registerAdmin');
-// Route::post('/registerAdmin', [App\Http\Controllers\AdminAuthController::class, 'register'])->name('admin.register');
+Route::get('/registerAdmin', [App\Http\Controllers\AdminAuthController::class, 'showRegisterForm'])->name('admin.register');
+Route::post('/registerAdmin', [App\Http\Controllers\AdminAuthController::class, 'register'])->name('admin.registerAdmin');
+    
+Route::post('/logout', [App\Http\Controllers\AdminAuthController::class, 'logout'])->name('admin.logout');
 
-// Route::post('/logout', [App\Http\Controllers\AdminAuthController::class, 'logout'])->name('admin.logout');
-
-// --- Admin Dashboard ---
-// Route::get('/dashboard', function () {
-//     return view('admin.admindashboard');
-// });
+Route::middleware('auth:admin')->group(function () {
+    Route::get('/admindashboard', [AdminAuthController::class, 'dashboard'])->name('admin.admindashboard');
+    Route::post('/admin/logout', [AdminAuthController::class, 'logout'])->name('admin.logout');
+});
 
 

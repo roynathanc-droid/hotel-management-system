@@ -59,11 +59,6 @@ class ClientController extends Controller
         return view ('businesslounge');
     }
 
-    public function spa()
-    {
-        return view ('spa');
-    }
-
     public function services()
     {
         return view ('services');
@@ -77,5 +72,40 @@ class ClientController extends Controller
     public function digitalconcierge()
     {
         return view ('digitalconcierge');
+    }
+
+    public function facilities()
+    {
+        return view ('facilities');
+    }
+
+    public function infinitypool()
+    {
+        return view ('infinitypool');
+    }
+
+    public function spa()
+    {
+        return view ('spa');
+    }
+
+    public function fitness()
+    {
+        return view ('fitness');
+    }
+
+    public function valet()
+    {
+        return view ('valet');
+    }
+
+    public function wifi()
+    {
+        return view ('wifi');
+    }
+
+    public function artgallery()
+    {
+        return view ('artgallery');
     }
 }

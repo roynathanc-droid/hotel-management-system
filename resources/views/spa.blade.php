@@ -45,9 +45,9 @@
     </div>
 
     <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1600334129128-16d1b3a0f9d0?auto=format&fit=crop&w=800&q=80" alt="Spa Room">
-      <img src="https://images.unsplash.com/photo-1584467735871-20d0aa1d2887?auto=format&fit=crop&w=800&q=80" alt="Massage Area">
-      <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07c?auto=format&fit=crop&w=800&q=80" alt="Sauna Room">
+      <img src="https://live.staticflickr.com/2637/3818488264_486169aef4_b.jpg" alt="Spa Room">
+      <img src="https://melakatheguide.com.my/images/what%20we%20offer/Spa.jpg" alt="Massage Area">
+      <img src="https://parkwayinn.com/wp-content/uploads/2021/11/Sauna.jpg" alt="Sauna Room">
     </div>
   </div>
 

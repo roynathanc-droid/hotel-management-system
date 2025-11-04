@@ -120,7 +120,7 @@
   <header>
     <div class="logo">THE KICUKIRO HEIGHTS</div>
     <div class="nav-links">
-      <a href="/clients">Home</a>
+      <a href="/welcome">Home</a>
       <a href="/services">Services</a>
       <a href="/facilities">Facilities</a>
       <a href="/book">Book Now</a>

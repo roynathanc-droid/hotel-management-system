@@ -92,10 +92,11 @@
                 <div class="alert">{{ session('success') }}</div>
             @endif
 
-            <form action="{{ route('admin.register') }}" method="POST">
+            <form action="{{ route('admin.registerAdmin') }}" method="POST">
                 @csrf
                 <input type="text" name="name" placeholder="Full Name" required>
                 <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="phonenumber" placeholder="Phone Number" required>
                 <input type="password" name="password" placeholder="Password" required>
                 <input type="password" name="password_confirmation" placeholder="Confirm Password" required>
 
@@ -103,7 +104,7 @@
             </form>
 
             <div class="login-link">
-                <p>Already have an account? <a href="{{ route('admin.login') }}">Login here</a></p>
+                <p>Already have an account? <a href="{{ route('admin.loginAdmin') }}">Login here</a></p>
             </div>
         </div>
     </div>

@@ -94,7 +94,7 @@
                 </div>
             @endif
 
-            <form action="{{ route('admin.login') }}" method="POST">
+            <form action="{{ route('admin.loginAdmin') }}" method="POST">
                 @csrf
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="password" name="password" placeholder="Password" required>
@@ -103,7 +103,7 @@
             </form>
 
             <div class="register-link">
-                <p>Don't have an account? <a href="{{ route('admin.register') }}">Register here</a></p>
+                <p>Don't have an account? <a href="{{ route('admin.registerAdmin') }}">Register here</a></p>
             </div>
         </div>
     </div>

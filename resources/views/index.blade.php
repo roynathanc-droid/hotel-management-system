@@ -373,7 +373,7 @@
                     <a href="/welcome">Home</a>
                     <a href="#rooms">Rooms</a>
                     <a href="/services">Services</a>
-                    <a href="#facilities">Facilities</a>
+                    <a href="/facilities">Facilities</a>
                     <a href="/book">Book Now</a>
                     <a href="/register">Register</a>
                 </div>
@@ -669,7 +669,7 @@
                         <li><a href="#home">Home</a></li>
                         <li><a href="#rooms">Rooms & Suites</a></li>
                         <li><a href="/services">Services</a></li>
-                        <li><a href="#facilities">Facilities</a></li>
+                        <li><a href="/facilities">Facilities</a></li>
                         <li><a href="/book">Book Now</a></li>
                     </ul>
                 </div>
@@ -685,6 +685,18 @@
                         <!-- <li><a href="#">Meeting Rooms</a></li> -->
                         <li><a href="#">Transportation</a></li>
                         <li><a href="#">Concierge</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Facilities</h3>
+                    <ul>
+                        <li><a href="/infinitypool">Infinity Pool</a></li>
+                        <li><a href="/spa">Spa & Wellness</a></li>                     
+                        <li><a href="/fitness">Fitness Center</a></li>
+                        <li><a href="/valet">Valet Parking</a></li>
+                        <li><a href="/wifi">High-Speed Wi-Fi</a></li>
+                        <li><a href="/artgallery">Art Gallery</a></li>
                     </ul>
                 </div>
                 
