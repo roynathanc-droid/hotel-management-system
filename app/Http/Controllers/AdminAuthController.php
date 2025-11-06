@@ -11,11 +11,14 @@ use Illuminate\Support\Facades\Auth;
 
 class AdminAuthController extends Controller
 {
-    public function __construct()
+    // public function __construct()
+    // {
+    //     $this->middleware('auth:admin')->except(['showLoginForm', 'login', 'showRegisterForm', 'register']);
+    // }
+  public function showLoginForm()
     {
-        $this->middleware('auth:admin')->except(['showLoginForm', 'login', 'showRegisterForm', 'register']);
+        return view('admin.loginAdmin');
     }
-
 
     public function showRegisterForm()
     {
@@ -42,10 +45,10 @@ class AdminAuthController extends Controller
         return redirect('/loginAdmin')->with('success', 'Admin created successfully.');
     }
 
-    public function showLoginForm()
-    {
-        return view('admin.loginAdmin');
-    }
+    // public function showLoginForm()
+    // {
+    //     return view('admin.loginAdmin');
+    // }
 
     public function login(Request $request)
     {
