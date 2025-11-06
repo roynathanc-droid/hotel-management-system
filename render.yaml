@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: my-laravel-webservice
+    name: hotel-management-system
     env: php
     plan: free
     buildCommand: ""
