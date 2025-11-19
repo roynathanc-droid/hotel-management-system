@@ -4,7 +4,7 @@ FROM php:8.2-apache
 # Install required system dependencies
 RUN apt-get update && apt-get install -y \
     git unzip libpq-dev libzip-dev zip curl \
-    && docker-php-ext-install pdo pdo_mysql zip
+    && docker-php-ext-install pdo pdo_pgsql zip
 
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
@@ -24,6 +24,12 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Install Laravel dependencies
 RUN composer install --no-dev --optimize-autoloader
 
+# Generate application key if needed and run optimizations
+RUN php artisan key:generate --force \
+    && php artisan config:cache \
+    && php artisan route:cache \
+    && php artisan view:cache
+
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
@@ -32,6 +38,4 @@ EXPOSE 80
 
 # Start Apache server
 CMD ["apache2-foreground"]
-# Copy .env into container
-COPY .env /var/www/html/.env
 
