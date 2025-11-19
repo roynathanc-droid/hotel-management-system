@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Models\register;
+use App\Models\Register;
 
 use Illuminate\Support\Facades\Auth;
 

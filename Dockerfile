@@ -39,6 +39,9 @@ EXPOSE 80
 
 # Create startup script that runs optimizations and migrations at runtime
 RUN echo '#!/bin/bash\n\
+mkdir -p /var/www/html/storage/logs\n\
+chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache\n\
+chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache\n\
 php artisan config:cache\n\
 php artisan route:cache\n\
 php artisan view:cache\n\
