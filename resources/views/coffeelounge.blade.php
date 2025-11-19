@@ -10,7 +10,7 @@
     .logo{font-size:1.8rem;font-weight:bold;color:#D4AF37;}
     .nav-links a{color:white;margin-left:1.5rem;text-decoration:none;transition:color 0.3s;}
     .nav-links a:hover{color:#D4AF37;}
-    .hero{height:60vh;background:url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1350&q=80') no-repeat center/cover;display:flex;justify-content:center;align-items:center;color:white;text-align:center;text-shadow:2px 2px 5px rgba(0,0,0,0.6);}
+    .hero{height:60vh;background:url('/coffee/coffee 3.avif') no-repeat center/cover;display:flex;justify-content:center;align-items:center;color:white;text-align:center;text-shadow:2px 2px 5px rgba(0,0,0,0.6);}
     .hero h1{font-size:3rem;}
     .container{width:90%;max-width:1000px;margin:3rem auto;}
     .intro{text-align:center;margin-bottom:2rem;}
@@ -27,7 +27,9 @@
     <div class="nav-links">
       <a href="/">Home</a>
       <a href="/services">Services</a>
+      <a href="/facilities">Facilities</a>
       <a href="/book">Book Now</a>
+      <a href="/register">Register</a>
     </div>
   </header>
 
@@ -43,8 +45,8 @@
     </div>
 
     <div class="gallery">
-      <img src="https://visitgriffith.com.au/wp-content/uploads/2023/03/image-from-rawpixel-id-3305585-jpeg-1024x683.jpg" alt="Coffee Cup">
-      <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=80" alt="Coffee Lounge">
+      <img src="coffee/coffee 1.jpg" alt="Coffee Cup">
+      <img src="coffee/coffee 2.avif" alt="Coffee Lounge">
       <!-- <img src="https://images.unsplash.com/photo-1541516160071-8f5a60a15368?auto=format&fit=crop&w=800&q=80" alt="Barista Art"> -->
     </div>
   </div>

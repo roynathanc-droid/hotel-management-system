@@ -324,7 +324,7 @@
         .footer-content {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
+            gap: 1rem;
             margin-bottom: 2rem;
         }
         
@@ -666,7 +666,7 @@
                 <div class="footer-column">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#home">Home</a></li>
+                        <li><a href="/welcome">Home</a></li>
                         <li><a href="#rooms">Rooms & Suites</a></li>
                         <li><a href="/services">Services</a></li>
                         <li><a href="/facilities">Facilities</a></li>
@@ -701,13 +701,13 @@
                 </div>
                 
                 <div class="footer-column">
-                    <h3>Connect With Us</h3>
+                    <!-- <h3>Connect With Us</h3>
                     <ul>
                         <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
                         <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
                         <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
                         <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
             

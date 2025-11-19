@@ -135,7 +135,7 @@
   <section class="services">
     <!-- Fine Dining -->
     <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80" alt="Fine Dining">
+      <img src="/dining/restaurant 4.avif" alt="Fine Dining">
       <div class="service-content">
         <h3>Fine Dining – Imbuto Fusion</h3>
         <p>Experience world-class gastronomy with a panoramic view of Kigali. Perfect for elegant dinners and culinary excellence.</p>
@@ -145,7 +145,7 @@
 
     <!-- Rooftop Bar -->
     <div class="service-card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Rooftop_garden_aerial_view_located_at_the_corporate_offices_of_Hilshire_Brands.jpg" alt="Rooftop Bar">
+      <img src="/rooftop bar/rooftop 4.jpg" alt="Rooftop Bar">
       <div class="service-content">
         <h3>Rooftop Bar – SkyKigali</h3>
         <p>Enjoy Kigali’s skyline with signature cocktails, smooth music, and sunset views from the 11th floor terrace.</p>
@@ -155,7 +155,7 @@
 
     <!-- Coffee Lounge -->
     <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80" alt="Coffee Lounge">
+      <img src="/coffee/coffee 3.avif" alt="Coffee Lounge">
       <div class="service-content">
         <h3>Coffee Lounge – Rwagasabo Café</h3>
         <p>Relax with Rwanda’s finest coffee, pastries, and calm ambiance — perfect for a quiet morning or informal meet-up.</p>
@@ -165,7 +165,7 @@
 
     <!-- Business Lounge -->
     <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80" alt="Business Lounge">
+      <img src="/business/business 4.avif" alt="Business Lounge">
       <div class="service-content">
         <h3>Business Lounge – The Executive Hub</h3>
         <p>Host your meetings or work remotely in style with high-speed Wi-Fi, private spaces, and top-tier office amenities.</p>
@@ -175,7 +175,7 @@
 
     <!-- Luxury Shuttle -->
     <div class="service-card">
-      <img src="https://galvestonlimo.com/wp-content/uploads/2023/07/ED6A3024-1024x683.jpg" alt="Luxury Shuttle">
+      <img src="/luxury/luxury 4.jpg" alt="Luxury Shuttle">
       <div class="service-content">
         <h3>Luxury Shuttle – Kigali Transfers</h3>
         <p>Travel in comfort and class. From airport pickups to city tours, our luxury shuttles redefine convenience and elegance.</p>
@@ -189,7 +189,7 @@
       <div class="service-content">
         <h3>Digital Concierge – 24/7 Assistance</h3>
         <p>From room service to reservations, get instant help through our digital concierge. Your comfort is just a tap away.</p>
-        <a href="/digital-concierge" class="btn">Learn More</a>
+        <a href="/digitalconcierge" class="btn">Learn More</a>
       </div>
     </div>
   </section>

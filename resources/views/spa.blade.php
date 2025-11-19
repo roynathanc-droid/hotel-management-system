@@ -10,7 +10,7 @@
     .logo{font-size:1.8rem;font-weight:bold;color:#D4AF37;}
     .nav-links a{color:white;margin-left:1.5rem;text-decoration:none;transition:color 0.3s;}
     .nav-links a:hover{color:#D4AF37;}
-    .hero{height:60vh;background:url('https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1350&q=80') no-repeat center/cover;display:flex;justify-content:center;align-items:center;color:white;text-align:center;text-shadow:2px 2px 5px rgba(0,0,0,0.6);}
+    .hero{height:60vh;background:url('/spa1/spa 1.jpg') no-repeat center/cover;display:flex;justify-content:center;align-items:center;color:white;text-align:center;text-shadow:2px 2px 5px rgba(0,0,0,0.6);}
     .hero h1{font-size:3rem;}
     .container{width:90%;max-width:1000px;margin:3rem auto;}
     .intro{text-align:center;margin-bottom:2rem;}
@@ -45,9 +45,9 @@
     </div>
 
     <div class="gallery">
-      <img src="https://live.staticflickr.com/2637/3818488264_486169aef4_b.jpg" alt="Spa Room">
-      <img src="https://melakatheguide.com.my/images/what%20we%20offer/Spa.jpg" alt="Massage Area">
-      <img src="https://parkwayinn.com/wp-content/uploads/2021/11/Sauna.jpg" alt="Sauna Room">
+      <img src="/spa1/spa 1.jpg" alt="Spa Room">
+      <img src="/spa1/spa 2.jpg" alt="Massage Area">
+      <img src="/spa1/spa 3.jpg" alt="Sauna Room">
     </div>
   </div>
 

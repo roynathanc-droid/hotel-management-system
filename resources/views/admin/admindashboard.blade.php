@@ -89,11 +89,11 @@
             <div class="nav-item"><a href="#" class="nav-link active"><i class="fas fa-tachometer-alt"></i> Dashboard</a></div>
             <div class="nav-title">Management</div>
             <div class="nav-item"><a href="#" class="nav-link"><i class="fas fa-bed"></i> Rooms</a></div>
-            <div class="nav-item"><a href="#" class="nav-link"><i class="fas fa-calendar-check"></i> Bookings</a></div>
-            <div class="nav-item"><a href="#" class="nav-link"><i class="fas fa-users"></i> Guests</a></div>
+            <div class="nav-item"><a href="/admin/bookings" class="nav-link"><i class="fas fa-calendar-check"></i> Bookings</a></div>
+            <div class="nav-item"><a href="/admin/guests" class="nav-link"><i class="fas fa-users"></i> Guests</a></div>
             <div class="nav-item"><a href="#" class="nav-link"><i class="fas fa-concierge-bell"></i> Services</a></div>
             <div class="nav-title">Reports</div>
-            <div class="nav-item"><a href="#" class="nav-link"><i class="fas fa-chart-line"></i> Occupancy</a></div>
+            <div class="nav-item"><a href="/admin/occupancy" class="nav-link"><i class="fas fa-chart-line"></i> Occupancy</a></div>
             <div class="nav-item"><a href="#" class="nav-link"><i class="fas fa-money-bill-wave"></i> Revenue</a></div>
             <div class="nav-title">System</div>
             <div class="nav-item"><a href="#" class="nav-link"><i class="fas fa-users-cog"></i> Staff</a></div>
@@ -124,7 +124,7 @@
         <div class="data-card">
             <div class="data-card-header">
                 <div class="data-card-title">Recent Bookings</div>
-                <div class="data-card-actions"><a href="#">View All</a></div>
+                <div class="data-card-actions"><a href="/admin/bookings">View All</a></div>
             </div>
             <div class="data-card-body">
                 <table class="table">

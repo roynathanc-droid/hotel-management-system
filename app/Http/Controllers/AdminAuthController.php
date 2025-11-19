@@ -98,6 +98,15 @@ class AdminAuthController extends Controller
         ));
     }
 
+    public function allBookings()
+{
+    // Récupère toutes les réservations, triées par date (plus récentes en premier)
+    $allBookings = \App\Models\Book::orderBy('created_at', 'desc')->paginate(10);
+
+    return view('admin.allbookings', compact('allBookings'));
+}
+
+
 
     
 }

@@ -10,7 +10,7 @@
     .logo{font-size:1.8rem;font-weight:bold;color:#D4AF37;}
     .nav-links a{color:white;margin-left:1.5rem;text-decoration:none;transition:color 0.3s;}
     .nav-links a:hover{color:#D4AF37;}
-    .hero{height:60vh;background:url('https://images.unsplash.com/photo-1598327105261-88c693b9a6ae?auto=format&fit=crop&w=1350&q=80') no-repeat center/cover;display:flex;justify-content:center;align-items:center;color:white;text-align:center;text-shadow:2px 2px 5px rgba(0,0,0,0.6);}
+    .hero{height:60vh;background:url('/digital/digital 2.avif') no-repeat center/cover;display:flex;justify-content:center;align-items:center;color:white;text-align:center;text-shadow:2px 2px 5px rgba(0,0,0,0.6);}
     .hero h1{font-size:3rem;}
     .container{width:90%;max-width:1000px;margin:3rem auto;}
     .intro{text-align:center;margin-bottom:2rem;}
@@ -25,7 +25,7 @@
   <header>
     <div class="logo">THE KICUKIRO HEIGHTS</div>
     <div class="nav-links">
-      <a href="/clients">Home</a>
+      <a href="/welcome">Home</a>
       <a href="/services">Services</a>
       <a href="/facilities">Facilities</a>
       <a href="/book">Book Now</a>
@@ -46,9 +46,9 @@
     </div>
 
     <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?auto=format&fit=crop&w=800&q=80" alt="Hotel App Interface">
-      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="Digital Assistant">
-      <img src="https://images.unsplash.com/photo-1591696331119-2f9db9f60a4e?auto=format&fit=crop&w=800&q=80" alt="Smart Concierge Tablet">
+      <img src="/digital/digital 1.avif" alt="Hotel App Interface">
+      <img src="/digital/digital 2.avif" alt="Digital Assistant">
+      <!-- <img src="/digital/digital 3.jpg" alt="Smart Concierge Tablet"> -->
     </div>
   </div>
 

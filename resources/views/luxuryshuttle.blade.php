@@ -10,7 +10,7 @@
     .logo{font-size:1.8rem;font-weight:bold;color:#D4AF37;}
     .nav-links a{color:white;margin-left:1.5rem;text-decoration:none;transition:color 0.3s;}
     .nav-links a:hover{color:#D4AF37;}
-    .hero{height:60vh;background:url('https://galvestonlimo.com/wp-content/uploads/2023/07/ED6A3024-1024x683.jpg') no-repeat center/cover;display:flex;justify-content:center;align-items:center;color:white;text-align:center;text-shadow:2px 2px 5px rgba(0,0,0,0.6);}
+    .hero{height:60vh;background:url('/luxury/luxury 4.jpg') no-repeat center/cover;display:flex;justify-content:center;align-items:center;color:white;text-align:center;text-shadow:2px 2px 5px rgba(0,0,0,0.6);}
     .hero h1{font-size:3rem;}
     .container{width:90%;max-width:1000px;margin:3rem auto;}
     .intro{text-align:center;margin-bottom:2rem;}
@@ -25,7 +25,7 @@
   <header>
     <div class="logo">THE KICUKIRO HEIGHTS</div>
     <div class="nav-links">
-      <a href="/clients">Home</a>
+      <a href="/welcome">Home</a>
       <a href="/services">Services</a>
       <a href="/facilities">Facilities</a>
       <a href="/book">Book Now</a>
@@ -46,9 +46,9 @@
     </div>
 
     <div class="gallery">
-      <img src="https://cdn05.carsforsale.com/3c8cd990fbf4530133dcdbc9a7fb8511/480x360/2017-audi-q7-3-0t-quattro-premium-plus-awd-4dr-suv.jpg" alt="Luxury Car Exterior">
-      <img src="https://live.staticflickr.com/7107/7408464122_852935bb89_b.jpg" alt="Tesla Interior">
-      <img src="https://www.stockvault.net/data/2017/02/26/225871/preview16.jpg" alt="Range Rover Ride">
+      <img src="/luxury/luxury 1.jpg" alt="Luxury Car Exterior">
+      <img src="/luxury/luxury 2.jpg" alt="Tesla Interior">
+      <img src="/luxury/luxury 3.jpg" alt="Range Rover Ride">
     </div>
   </div>
 

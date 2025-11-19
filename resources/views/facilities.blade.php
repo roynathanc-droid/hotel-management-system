@@ -111,7 +111,7 @@
   <header>
     <div class="logo">THE KICUKIRO HEIGHTS</div>
     <div class="nav-links">
-      <a href="/clients">Home</a>
+      <a href="/welcome">Home</a>
       <a href="/services">Services</a>
       <a href="/facilities">Facilities</a>
       <a href="/book">Book Now</a>
@@ -134,7 +134,7 @@
     </div>
 
     <div class="facility-card">
-      <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1350&q=80" alt="Spa & Wellness">
+      <img src="/spa1/spa 1.jpg" alt="Spa & Wellness">
       <div class="facility-content">
         <h3>Spa & Wellness</h3>
         <p>Experience holistic rejuvenation with massages, aromatherapy, and sauna treatments.</p>

@@ -10,7 +10,7 @@
     .logo{font-size:1.8rem;font-weight:bold;color:#D4AF37;}
     .nav-links a{color:white;margin-left:1.5rem;text-decoration:none;transition:color 0.3s;}
     .nav-links a:hover{color:#D4AF37;}
-    .hero{height:60vh;background:url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1350&q=80') no-repeat center/cover;display:flex;justify-content:center;align-items:center;color:white;text-align:center;text-shadow:2px 2px 5px rgba(0,0,0,0.6);}
+    .hero{height:60vh;background:url('/business/business 4.avif') no-repeat center/cover;display:flex;justify-content:center;align-items:center;color:white;text-align:center;text-shadow:2px 2px 5px rgba(0,0,0,0.6);}
     .hero h1{font-size:3rem;}
     .container{width:90%;max-width:1000px;margin:3rem auto;}
     .intro{text-align:center;margin-bottom:2rem;}
@@ -27,7 +27,9 @@
     <div class="nav-links">
       <a href="/">Home</a>
       <a href="/services">Services</a>
+      <a href="/facilities">Facilities</a>
       <a href="/book">Book Now</a>
+      <a href="/register">Register</a>
     </div>
   </header>
 
@@ -43,9 +45,9 @@
     </div>
 
     <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Meeting Room">
-      <img src="https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?auto=format&fit=crop&w=800&q=80" alt="Coworking Space">
-      <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt="Business Lounge">
+      <img src="/business/business 1.avif" alt="Meeting Room">
+      <img src="/business/business 2.avif" alt="Coworking Space">
+      <img src="/business/business 3.avif" alt="Business Lounge">
     </div>
   </div>
 

@@ -8,7 +8,7 @@
     <style>
         body {font-family: 'Arial', sans-serif; background-color: #f9f9f9; margin: 0; color: #333;}
         header {background-color: #2C3E50; color: #D4AF37; text-align: center; padding: 1rem; font-size: 1.5rem;}
-        .banner {background: url('https://images.unsplash.com/photo-1571019613913-7f09901c0e1e?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat; height: 60vh; display: flex; align-items: center; justify-content: center; color: white; text-shadow: 2px 2px 6px rgba(0,0,0,0.6); font-size: 2rem;}
+        .banner {background: url('https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=800&q=80') center/cover no-repeat; height: 60vh; display: flex; align-items: center; justify-content: center; color: white; text-shadow: 2px 2px 6px rgba(0,0,0,0.6); font-size: 2rem;}
         .content {max-width: 900px; margin: 3rem auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);}
         h2 {color: #2C3E50; text-align: center; margin-bottom: 1rem;}
         p {line-height: 1.7; color: #555; text-align: justify;}

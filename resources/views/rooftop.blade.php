@@ -10,7 +10,7 @@
     .logo{font-size:1.8rem;font-weight:bold;color:#D4AF37;}
     .nav-links a{color:white;margin-left:1.5rem;text-decoration:none;transition:color 0.3s;}
     .nav-links a:hover{color:#D4AF37;}
-    .hero{height:60vh;background:url('https://upload.wikimedia.org/wikipedia/commons/2/2b/Rooftop_garden_aerial_view_located_at_the_corporate_offices_of_Hilshire_Brands.jpg') no-repeat center/cover;display:flex;justify-content:center;align-items:center;color:white;text-align:center;text-shadow:2px 2px 5px rgba(0,0,0,0.6);}
+    .hero{height:60vh;background:url('/rooftop bar/rooftop 4.jpg') no-repeat center/cover;display:flex;justify-content:center;align-items:center;color:white;text-align:center;text-shadow:2px 2px 5px rgba(0,0,0,0.6);}
     .hero h1{font-size:3rem;}
     .container{width:90%;max-width:1000px;margin:3rem auto;}
     .intro{text-align:center;margin-bottom:2rem;}
@@ -25,7 +25,7 @@
   <header>
     <div class="logo">THE KICUKIRO HEIGHTS</div>
     <div class="nav-links">
-      <a href="/">Home</a>
+      <a href="/welcome">Home</a>
       <a href="/services">Services</a>
       <a href="/facilities">Facilities</a>
       <a href="/book">Book Now</a>
@@ -45,9 +45,9 @@
     </div>
 
     <div class="gallery">
-      <img src="https://static.wixstatic.com/media/19efd0_8520e4a5f9a74db7b2ce1bec9ea36222~mv2.png/v1/fill/w_672,h_448,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/19efd0_8520e4a5f9a74db7b2ce1bec9ea36222~mv2.png" alt="Rooftop View">
-      <img src="https://images.pexels.com/photos/26626729/pexels-photo-26626729/free-photo-of-illuminated-bar-in-a-restaurant.jpeg" alt="Cocktail Lounge">
-      <img src="https://images.pexels.com/photos/11828428/pexels-photo-11828428.jpeg" alt="Bar Interior">
+      <img src="/rooftop bar/rooftop 1.avif" alt="Rooftop View">
+      <img src="/rooftop bar/rooftop 2.jpeg" alt="Cocktail Lounge">
+      <img src="/rooftop bar/rooftop 3.jpeg" alt="Bar Interior">
     </div>
   </div>
 

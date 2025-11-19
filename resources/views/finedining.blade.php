@@ -40,7 +40,7 @@
 
     .hero {
       height: 60vh;
-      background: url('https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80') no-repeat center/cover;
+      background: url('/dining/restaurant 4.avif') no-repeat center/cover;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -101,7 +101,7 @@
   <header>
     <div class="logo">THE KICUKIRO HEIGHTS</div>
     <div class="nav-links">
-     <a href="/clients">Home</a>
+     <a href="/welcome">Home</a>
       <a href="/services">Services</a>
       <a href="/facilities">Facilities</a>
       <a href="/book">Book Now</a>
@@ -122,9 +122,9 @@
     </div>
 
     <div class="gallery">
-      <img src="https://media.istockphoto.com/id/522645617/photo/empty-glasses-in-restaurant.jpg?s=612x612&w=0&k=20&c=dYZAvj9xodJG11gyPZhPgFuDrXRgWBerQliKz4jguOg=" alt="Fine Dining Table">
-      <img src="https://freerangestock.com/sample/162165/gourmet-meal-on-rustic-table-setting.jpg" alt="Gourmet Dish">
-      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80" alt="Restaurant Interior">
+      <img src="/dining/restaurant 1.jpg" alt="Fine Dining Table">
+      <img src="/dining/gourmet-meal-on-rustic-table-setting restaurant 2.jpg" alt="Gourmet Dish">
+      <img src="/dining/restaurant 3.avif" alt="Restaurant Interior">
     </div>
   </div>
 

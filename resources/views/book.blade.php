@@ -262,7 +262,7 @@
             </div>
             
             <!-- Récapitulatif -->
-            <div class="booking-summary">
+            <!-- <div class="booking-summary">
                 <h3>Summary of your reservation</h3>
                 <div class="summary-item">
                     <span>Type of rooms:</span>
@@ -280,7 +280,7 @@
                     <span>Estimed Total:</span>
                     <strong id="summary-total">$0</strong>
                 </div>
-            </div>
+            </div> -->
             
             
         </form>

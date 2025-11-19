@@ -33,4 +33,42 @@ class AdminController extends Controller
             'todaysOccupancy'
         ));
     }
+
+    public function guests()
+{
+    $guests = Book::select('name', 'email', 'phonenumber', 'roomtype', 'checkin', 'checkout')
+        ->orderByDesc('checkin')
+        ->paginate(10);
+
+    return view('admin.guests', compact('guests'));
+}
+
+public function occupancy()
+{
+    $totalRooms = 50; // Exemple : à remplacer par ta table rooms plus tard
+    $today = \Carbon\Carbon::today();
+
+    // Occupation du jour
+    $occupiedToday = Book::whereDate('checkin', '<=', $today)
+        ->whereDate('checkout', '>=', $today)
+        ->count();
+
+    $occupancyRate = $totalRooms > 0 ? ($occupiedToday / $totalRooms) * 100 : 0;
+
+    // Historique des 7 derniers jours
+    $weekData = [];
+    for ($i = 6; $i >= 0; $i--) {
+        $day = $today->copy()->subDays($i);
+        $count = Book::whereDate('checkin', '<=', $day)
+            ->whereDate('checkout', '>=', $day)
+            ->count();
+        $weekData[] = [
+            'date' => $day->format('M d'),
+            'count' => $count
+        ];
+    }
+
+    return view('admin.occupancy', compact('occupiedToday', 'occupancyRate', 'weekData'));
+}
+
 }

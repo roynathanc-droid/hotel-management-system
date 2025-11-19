@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 });*/
 
 use App\Http\Controllers\ClientController;
-Route::get('/', [ClientController::class, 'index']);
+Route::get('/welcome', [ClientController::class, 'index']);
 Route::get('/admin', [ClientController::class, 'admin']);
 Route::get('/finedining', [ClientController::class, 'finedining']);
 Route::get('/rooftop', [ClientController::class, 'rooftop']);
@@ -69,5 +69,20 @@ Route::middleware('auth:admin')->group(function () {
     Route::get('/admindashboard', [AdminAuthController::class, 'dashboard'])->name('admin.admindashboard');
     Route::post('/admin/logout', [AdminAuthController::class, 'logout'])->name('admin.logout');
 });
+
+// Page complète des réservations (accessible uniquement aux admins)
+Route::get('/admin/bookings', [App\Http\Controllers\AdminAuthController::class, 'allBookings'])
+    ->middleware('auth:admin')
+    ->name('admin.bookings');
+
+use App\Http\Controllers\adminController;
+Route::middleware(['auth:admin'])->group(function () {
+// Route::get('/admindashboard', [AdminController::class, 'dashboard']);
+// Route::get('/admin/bookings', [AdminController::class, 'bookings']);
+Route::get('/admin/guests', [AdminController::class, 'guests']);
+Route::get('/admin/occupancy', [AdminController::class, 'occupancy']);
+});
+
+
 
 
