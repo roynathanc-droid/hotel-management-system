@@ -370,7 +370,7 @@
             <nav>
                 <div class="logo">THE KICUKIRO HEIGHTS</div>
                 <div class="nav-links">
-                    <a href="/welcome">Home</a>
+                    <a href="/">Home</a>
                     <a href="#rooms">Rooms</a>
                     <a href="/services">Services</a>
                     <a href="/facilities">Facilities</a>
@@ -666,7 +666,7 @@
                 <div class="footer-column">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="/welcome">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="#rooms">Rooms & Suites</a></li>
                         <li><a href="/services">Services</a></li>
                         <li><a href="/facilities">Facilities</a></li>

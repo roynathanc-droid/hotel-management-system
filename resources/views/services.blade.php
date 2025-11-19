@@ -120,7 +120,7 @@
   <header>
     <div class="logo">THE KICUKIRO HEIGHTS</div>
     <div class="nav-links">
-      <a href="/welcome">Home</a>
+      <a href="/">Home</a>
       <a href="/services">Services</a>
       <a href="/facilities">Facilities</a>
       <a href="/book">Book Now</a>
@@ -195,7 +195,7 @@
   </section>
 
   <footer>
-    <p>&copy; {{ date('Y') }} The Kicukiro Heights | <a href="/welcome">Back to Home</a></p>
+    <p>&copy; {{ date('Y') }} The Kicukiro Heights | <a href="/">Back to Home</a></p>
   </footer>
 </body>
 </html>

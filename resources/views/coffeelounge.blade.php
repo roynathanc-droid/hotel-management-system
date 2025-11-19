@@ -52,7 +52,7 @@
   </div>
 
   <footer>
-    <p>&copy; {{ date('Y') }} The Kicukiro Heights | <a href="/welcome">Back to Home</a></p>
+    <p>&copy; {{ date('Y') }} The Kicukiro Heights | <a href="/">Back to Home</a></p>
   </footer>
 </body>
 </html>

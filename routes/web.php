@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 });*/
 
 use App\Http\Controllers\ClientController;
-Route::get('/welcome', [ClientController::class, 'index']);
+Route::get('/', [ClientController::class, 'index']);
 Route::get('/admin', [ClientController::class, 'admin']);
 Route::get('/finedining', [ClientController::class, 'finedining']);
 Route::get('/rooftop', [ClientController::class, 'rooftop']);
